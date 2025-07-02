@@ -687,3 +687,17 @@
     border: none; */
 }   
 
+.cat-brand-arrow{
+    width: 6px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-image: url(https://m.media-amazon.com/images/S/sash/5wejH04P3ogfQ-4.svg);
+
+}
+.arrow-elec{
+    display: flex;
+}
+.side-bar p{
+    font-size: 14px;
+}
+
