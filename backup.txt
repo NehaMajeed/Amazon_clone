@@ -379,7 +379,7 @@
                     <div class="mob-price">
                       <div class="mrp-strike">
                         <span class="rupee-symbol">&#8377;</span>
-                        <span class="six-four">6,499</span>
+                        <span class="six-four">6499</span>
                         <span class="mrp">M.R.P:</span>
                         <span class="strike">&#8377;9,999</span>
                         <span class="space"></span>
@@ -1956,35 +1956,9 @@
     <div class="footer-box-baseline">
 
     </div>
-
     <div class="amazon-india">
-      <span class="amzn-pic">
-        <div class="amzn-pic-child">
-         <div class="amzn-logo">
 
-         </div>
-        </div>
-      </span>
-      <span class="eng-india">
-         <div class="eng-india-child">
-            <div class="english">
-                <a href="#"class="a-eng">
-                  <div class="eng-small">
-
-                  </div>
-                  <span class="eng-span"></span>
-                </a>
-                <button class="eng-bn"></button>
-            </div>
-
-             <div class="india">
-              <span></span>
-              <span></span>
-             </div>
-         </div>
-      </span>
     </div>
-
   <div class="below-india-wrapper">
     <div class="below-india">
       <ul class="row1">
@@ -2114,7 +2088,7 @@
 
       </li>
       <li class="third-li">
-          <a href="#">Interest-Based Ads</a> 
+          <a href="#">Privacy Notice</a> 
 
       </li>
      </ul>
