@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-
+<div class="desktop-view">
 <div class="double-rows">
 
  
@@ -31,6 +31,93 @@
     </div>
 
     <div class="nav-search-container">
+      <div class="nav-search">
+         <div class="nav-left-line">
+
+         </div>
+         <div class="nav-left-box">
+          <div class="nav-left-boxchild">
+            <div class="nav-left1">
+              <div class="nav-left2">
+                <span class="mob-n-acc">Mobiles & Accessories</span>
+                <i class="nav-arrow"></i>
+              </div>
+              <!-- <select class="nav-select">
+
+              </select> -->
+            </div>
+          </div>
+</div>
+      <div class="nav-middle-box">
+          <div class="nav-search-box">
+            <input type="text" class="search-input">
+          </div>
+          <div class="nav-search-attach"></div>
+         </div>
+         <div class="nav-right-box">
+          <div class="nav-search-submit">
+            <span class="search-submit-span">
+              <!-- <input type="text" class="search-submit-input"> -->
+            </span>
+          </div>
+         </div>
+         </div>
+      
+    
+      <div class="nav-end-container">
+         <div class="nav-end">
+           <div class="nav-end-one">
+             <a href="#" class="sub-a">
+               <span class="span1">
+                  <span class="span2"></span>
+                  <span class="span3">
+                     <span class="flag"></span>
+                     <div class="en-text">EN</div>
+                  </span>
+
+               </span>
+             </a>
+             <button class="end-button"></button>
+           </div>
+
+           <div class="nav-end-two">
+
+            <a href="#" class="sub-a1">
+               <div class="sub-a1-div">
+                  <span class="span4">Hello, sign in</span>
+               </div>
+               <span class="span5">Account & Lists</span>
+            </a>
+            <button class="end-button1"></button>
+
+           </div>
+
+
+           <a href="#" class="nav-end-a1">
+             <span class="span6">Returns</span>
+             <span class="span7">& Orders
+               <span class="span-arrow"></span>
+
+             </span>
+           </a>
+           <a href="#" class="nav-end-a2">
+             <div class="cart-zero">
+              <span class="cart-zero-span">0</span>
+              <span class="cart-logo"></span>
+
+             </div>
+             <div class="cart-text">
+                <span class="cart-text-span">Cart</span>
+             </div>
+           </a>
+
+         </div>
+      </div>
+
+</div>
+    </div>
+
+    <!-- <div class="nav-search-container">
       <div class="nav-search">
         <div class="search-arrow">
           <button class="nav-search-button">Mobiles & Accessories <i class="fa-solid fa-caret-down"></i></button>
@@ -72,7 +159,7 @@
         <div class="cart-text"><p>Cart</p></div>
       </div>
     </div>
-  </div> 
+  </div>  -->
 
   
   <div class="second-bar">
@@ -257,12 +344,16 @@
         <span class="a">&#8377;114,300+</span>
         </div>
    
-         <div class="scroll-container">
-          <div class="scroll"></div>
-          <div class="go-button-wrapper">
-          <button class="go">Go</button>
-          </div>
-        </div>
+         <div class="slider-container">
+       <div class="range-wrapper">
+         <input type="range" min="160" max="114300" value="160" class="range-slider" id="minRange">
+         <input type="range" min="160" max="114300" value="114300" class="range-slider" id="maxRange">
+       </div>
+       <div class="go-button-wrapper">
+        <button class="go">Go</button>
+       </div>
+      </div>
+
       </div>
 
      <div class="item-condition">
@@ -379,7 +470,7 @@
                     <div class="mob-price">
                       <div class="mrp-strike">
                         <span class="rupee-symbol">&#8377;</span>
-                        <span class="six-four">6499</span>
+                        <span class="six-four">6,499</span>
                         <span class="mrp">M.R.P:</span>
                         <span class="strike">&#8377;9,999</span>
                         <span class="space"></span>
@@ -1812,7 +1903,7 @@
                       <li>2</li>
                       <li>3</li>
                       <li><svg xmlns="http://www.w3.org/2000/svg" width="10" height="2" viewBox="0 0 10 2" aria-hidden="true"><path d="M9 2c-.608 0-1-.425-1-1s.392-1 1-1 1 .448 1 1c0 .575-.392 1-1 1zM5 2c-.608 0-1-.425-1-1s.392-1 1-1 1 .448 1 1c0 .575-.392 1-1 1zM1 2c-.608 0-1-.425-1-1s.392-1 1-1 1 .448 1 1c0 .575-.392 1-1 1z"></path>...</svg></li>
-                      <li>30</li>
+                      <li class="thirty">30</li>
                       <div class="next">
                       <p>Next</p>
                       <svg xmlns="http://www.w3.org/2000/svg" width="8" height="12" viewBox="0 0 8 12" focusable="false" aria-hidden="true"><path d="M2.126.35a1.28 1.28 0 00-1.761 0 1.165 1.165 0 000 1.695L4.478 6 .365 9.955a1.165 1.165 0 000 1.694 1.28 1.28 0 001.76 0L8 6 2.126.35z"></path></svg>
@@ -1858,20 +1949,19 @@
     </div>
     </div>
   </div>
-        <!-- <div class="recently-viewed-container">
+        <div class="recently-viewed-container">
               <div class="recently-viewed">
-                <div class="recent-contnt">
+                <div class="recent-content">
                    Your recently viewed items and featured recommendations 
                 </div>
                 <div class="recent-footer">
                   <div class="recent-footer-child">
                     <div class="recent-right">
-                      <div class="recent-arrow"> › 
+                      <div class="recent-arrow"> › </div>
                       <div class="view-or-edit">
-                        <span class="one">view or edit,<br>your browsing<br>history</span>
-                        
+                          <a href="#" class="view-a"> View or edit your browsing history </a>                        
                         </div>
-                      </div>
+                      
 
                     </div>
                     <span class="recent-left"> After viewing product detail pages, look here to find an easy way to navigate back to pages you are interested in. </span>
@@ -1879,7 +1969,8 @@
                   </div>
                 </div>
               </div>
-            </div>  -->
+            </div> 
+
    <div class="main-footer">
      <div class="back-to-top">
       <div class="backtotop-child">
@@ -1956,9 +2047,35 @@
     <div class="footer-box-baseline">
 
     </div>
-    <div class="amazon-india">
 
+    <div class="amazon-india">
+      <span class="amzn-pic">
+        <div class="amzn-pic-child">
+         <div class="amzn-logo">
+
+         </div>
+        </div>
+      </span>
+      <span class="eng-india">
+         <div class="eng-india-child">
+            <div class="english">
+                <a href="#"class="a-eng">
+                  <div class="eng-small">
+
+                  </div>
+                  <span class="eng-span">English</span>
+                </a>
+                <button class="eng-bn"></button>
+            </div>
+
+             <div class="india">
+              <span class="india-logo" ></span>
+              <span class="india-name">India</span>
+             </div>
+         </div>
+      </span>
     </div>
+
   <div class="below-india-wrapper">
     <div class="below-india">
       <ul class="row1">
@@ -2088,7 +2205,7 @@
 
       </li>
       <li class="third-li">
-          <a href="#">Privacy Notice</a> 
+          <a href="#">Interest-Based Ads</a> 
 
       </li>
      </ul>
@@ -2097,6 +2214,133 @@
 
 
    </div>         
+
+</div>
+</div>
+
+<!--Mobile View-->
+<div class="mobile-view">
+
+  <header class="mob-header">
+    <div class="mob-navbar">
+      <div class="mob-navbar1">
+        <div class="menu-amazon">
+          <a href="#" class="menu-symbol">
+            <i class="mob-logo"></i>
+          </a>
+          <div class="mob-amzn-logo">
+            <a href="#" class="a-logo">
+              <span class="logo-span1"></span>
+              <span class="logo-span2"></span>
+              <span class="logo-span3">.in</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="sign-in-cart">
+          <div class="mob-signin">
+            <a href="#" class="signin-text">
+                 Sign in ›</a>
+          </div>
+          <a href="#" class="person">
+            <i class="person-icon"></i>
+          </a>
+          <a href="#" class="mob-cart">
+            <div class="cart-child">
+              <span class="cart-span">
+                <span class="mob-zero">0</span>
+              </span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+      <div class="mob-navbar2">
+        <div class="mob-search-fill">
+          <div class="mob-search-field">
+              <input type="text" class="mob-nav-placeholder" placeholder="Search Amazon.in"/>
+
+          </div>
+        </div>
+        <div class="mob-search-photo">
+          <div class="nav-search-child">
+            <i class="mob-search-icon"></i>
+          </div>
+        </div>
+
+      </div>
+      <div class="mob-navbar3">
+        <div class="nav-delivering">
+          <div class="deliver-icon">
+
+          </div>
+          <div class="deliver-text">
+            <span class="del-text">
+                  Delivering to Kozhikode 673017 - Update location ⌵
+              </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="mob-whole-container">
+    <div class="filter-bar">
+      <div class="filter-bar-child">
+        <span class="filter-span">
+          <div class="filter-s-child">
+            <div class="prime-samsung">
+              <div class="mob-prime">
+                <span class="prime-span1">
+                  <a href="#" class="prime-a">
+
+                    <span class="prime-txt">
+                        <i class="mob-prime-logo"></i>
+                    </span>
+                    <span class="toggle"></span>
+                    
+                    
+                  </a>
+                </span>
+              </div>
+              <div class="mob-samsung">
+                <span class="samsung-child">
+                  <a href="#" class="samsung-a">
+                    <span class="samsung-text">Samsung</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+            <div class="filter-bracket">
+              <span class="filter-span">
+                <span class="f-span">
+                  <button class="f-button">
+                    <div class="fdown-block">
+                      <span class="f1">Filters</span>
+                      <span class="f2">(2)</span>
+                      <span class="f3"></span>
+                    </div>
+                  </button>
+                </span>
+              </span>
+            </div>
+
+          </div>
+        </span>
+      </div>
+    </div>
+    <div class="buying-bar-wrapper">
+    <div class="buying-bar">
+      <!-- <div class="buying-bar-child"> -->
+        <span class="buying-content">Check each product page for other buying options.</span>
+      </div>
+    <!-- </div> -->
+    </div>
+
+
+
+  </div>
+
 
 </div>
 </body>

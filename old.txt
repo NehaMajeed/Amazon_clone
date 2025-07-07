@@ -1,0 +1,43 @@
+<!-- <div class="nav-search-container">
+      <div class="nav-search">
+        <div class="search-arrow">
+          <button class="nav-search-button">Mobiles & Accessories <i class="fa-solid fa-caret-down"></i></button>
+        </div>
+        <div class="input-field">
+          <input type="text" class="nav-placeholder" placeholder="Search Amazon.in"/>
+        </div>
+        <button class="search-icon"></button>
+      </div>
+    </div>
+
+    <div class="right-bar">
+      <div class="language">
+        <div class="flag"></div>
+        <div class="lang-code">
+          <p>EN</p>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </div>
+
+      <div class="hello">
+        <p>Hello, sign in</p>
+        <div class="account-arrow">
+          <h3>Accounts & Lists</h3>
+          <i class="fa-solid fa-caret-down"></i>
+        </div>
+      </div>
+
+      <div class="returns">
+        <p>Returns</p>
+        <h3>& Orders</h3>
+      </div>
+
+      <div class="cart-container">
+        <div class="cart-count">
+          <div class="zero"><p>0</p></div>
+          <div class="cart"></div>
+        </div>
+        <div class="cart-text"><p>Cart</p></div>
+      </div>
+    </div>
+  </div>  -->
