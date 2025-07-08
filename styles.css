@@ -5,6 +5,10 @@
     font-family: var(--primary);
 }
 
+a {
+    text-decoration: none;
+}
+
 /* @font-face {
     font-family: 'amazon-font';
     src: url(/fonts/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_\ \(1\).woff2);
@@ -81,6 +85,7 @@
 .amazon-logo-wrapper{
     margin: 0px 0px 0px 11px;
     padding: 4px 0px 0px;
+     line-height: 80px;
 }
 
  .amazon-logo{
@@ -90,6 +95,7 @@
     margin: 1px;
     padding: 1px 8px 0px 6px;
     height: 50px;
+    line-height: 80px;
     
 }               
 
@@ -167,6 +173,7 @@
 }
 .deli-loc .update-location{
     height: 16px;
+    /* letter-spacing: 0.05px; */
 }
 
 
@@ -195,7 +202,7 @@
 }
 
 .nav-search-container .nav-search {
-    margin: 0 10px;
+    margin: 0 6px;
     padding: 10px 4px 10px 3px;
     height: 60px;
     display: flex;
@@ -471,7 +478,7 @@
     font-size: 14px;
     line-height: 15px;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 12px;
     display: flex;
     position: static;
     float: none;
@@ -1015,9 +1022,13 @@
   display: flex;
   flex-direction: row;
   background-color: #232f3e;
-  height: 39px;
+  max-height: 39px;
+  padding-top: 0;
+  flex-flow: row nowrap;
+  /* flex-wrap: wrap; */
+  width: 100%;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-left: 11px;
  
 }
@@ -1026,18 +1037,30 @@
      color: #ffffff;
      font-family: var(--primary);
 }
+.middle-container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
 
 .second-bar-middle{
    display: flex;
    flex: 1 1 auto;
    align-items:center;
    justify-content: space-between;
+   /* flex-wrap: wrap; */
 }
 
 .second-bar-middle .nav-box{
     padding: 0 5px;
     height: 100%;
     
+}
+.second-bar-middle .nav-box-no{
+  visibility: hidden;
+
 }
 
 .left-container{
@@ -1170,8 +1193,9 @@
     display: flex;
     align-items: center;
     /* margin: 0 12px; */
-    width: calc(100vw - 28px + 4px);
+    /* width: calc(100vw - 28px + 4px); */
     min-width: 996px;
+    width: 100%;
     
 
 }
@@ -1180,7 +1204,7 @@
     width: calc(.7* (100vw - 28px));
     min-width: 697.2px;
     max-width: 1257.2px;
-    padding: 0 4px;
+    padding: 0 8px;
     height: 40px;
     padding-top: 2px;
 }
@@ -1205,6 +1229,8 @@
     padding: 0 4px;
     display: flex;
     justify-content: flex-end;
+    /* padding-right: -10px; */
+    margin-right: -12px;
     
 }
 
@@ -1508,13 +1534,14 @@
   height: 28px;
   border: 8px solid #01717c;
   background: white;
-   box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+   /* box-shadow: 0 0 6px rgba(0, 0, 0, 1); */
   border-radius: 50%;
   cursor: pointer;
   pointer-events: auto;
   margin-top: -12px; 
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); */
   z-index: 2;
+  box-shadow: 0 0 15px rgb(114, 112, 112);
 }
 
  .go-button-wrapper{
@@ -1815,9 +1842,9 @@
     width: .385em;
 } */
 
-.mob-price{
+/* .mob-price{
     margin-top: 8px;
-}
+} */
 .mrp-strike{
     width: 100%;
     color: #0f1111;
@@ -2091,12 +2118,16 @@
     padding: 0 11px;
     font-size: 14px;
 }
+
+#two-two{
+    transform: translateX(-10px);
+}
 .pagination-strip .pg-blocks .first{
     font-family: 700;
     border: 1px solid #0f1111;
     /* padding-left: 11px;
     padding-right: 11px; */
-    padding: 15px 20px;
+    padding: 14px 20px;
     margin-left: -10px;
     margin-right: 4px;
       
@@ -2160,11 +2191,13 @@
     width: 100%;
     font-size: 14px;
     line-height: 20px;
+    margin-top: -1px;
 }
 
 .visit-sub{
     display: flex;
-    gap: 2px;
+    gap: 4px;
+
 }
 
 .visit-sub .one, .visit-sub .three{
@@ -2176,6 +2209,7 @@
     min-width: 940px;
     position: relative;
     width: 100%;
+    margin-bottom: -20px;
 
 }
 .recently-viewed{
@@ -2243,7 +2277,7 @@
     color: #2162a1;
     line-height: 11px;
 }
-.recent-right .view-or-edit .one{
+.recent-right .view-or-edit .view-a{
     font-size: 10px;
     width: 80px;
     display: inline-block;
@@ -2780,6 +2814,7 @@ a{
     clear: both;
     display: inline-block;
     cursor: pointer;
+    line-height: 50px;
 
 }
 
@@ -2794,6 +2829,7 @@ a{
     height: 28px;
     background-repeat: no-repeat;
     line-height: 12px;
+    /* margin-top: -1px */
 }
 
 .menu-amazon  .mob-amzn-logo .a-logo .logo-span3{
@@ -3104,12 +3140,13 @@ a{
     display: inline-block;
     font-size: 14px ;
     line-height: 20px;
+    
 }
 .mob-prime .prime-span1 .prime-a .prime-txt .mob-prime-logo{
 
     background-image: url(https://m.media-amazon.com/images/S/sash/IAiggOMz$2G$3oR.png);
     vertical-align: baseline;
-    margin-bottom: -1.75px;
+    margin-bottom: -6px;
     margin-inline-end: 4px;
     background-size: 512px 256px;
     background-repeat: no-repeat;
@@ -3117,7 +3154,8 @@ a{
     height: 12px;
     display: inline-block;
     background-position: -277px -224px;
-
+    
+    
 }
 .mob-prime .prime-span1 .prime-a .toggle{
     line-height: 0;
@@ -3462,7 +3500,8 @@ a{
 }
 .mob-box .mob-box1 .bestseller-mob{
     background: #f8f8f8;
-
+    padding-bottom: 5.25px;
+    
 }
 .bestseller-mob .best1{
     margin: 4px 0 0 4px;
@@ -3692,6 +3731,7 @@ a{
     line-height: 16px;
     width: 100%;
     color: #0f1111;
+    padding-top: 6px;
 }
 .mob-price-save .mob-price::before{
     display: table;
@@ -3707,7 +3747,7 @@ a{
     font-size: 0;
 }
 
-.mob-price-save .mob-price .mob-price-child{
+/* .mob-price-save .mob-price .mob-price-child{
     width: 100%;
     
     
@@ -3726,7 +3766,7 @@ a{
     content: '';
     line-height: 0;
     font-size: 0;
-}
+} */
 
  .mob-price-child .mob-price1 {
 
@@ -3741,12 +3781,16 @@ a{
   position: relative;
   top: -5.2px;
   font-size: 13px;
+  /* line-height: 16px; */
+  color: #0f1111;
 }
 
 .mob-price1 .mob-money {
     font-size: 22px;
     color: #0f1111;
     font-weight: 400;
+    line-height: 16px;
+    margin-left: -3.1px;
 
 }
 
@@ -3754,10 +3798,10 @@ a{
     
     width: 4.8px;
 } */
-
-.mob-price-child .mob-price2 {
+.mob-price2 {
     display: inline-block;
     margin-bottom: 13px;
+    
 
 }
 
@@ -3766,6 +3810,8 @@ a{
     line-height: 16px;
     font-weight: 300;
     color: #565959;
+    line-height: 16px;
+    margin-left: 1.6px;
 }
 
 .mob-price2 .mob-strike {
@@ -3779,15 +3825,18 @@ a{
 
 }
 
-.mob-price-child .mob-price3 {
+.mob-price3 {
     font-weight: 300;
-    color: #565959;
+    color: #0f1111;
+    line-height: 16px;
+    font-size: 12px;
+    margin-left: 1.65px;
 
 }
 
 .mob-price-save .mob-save {
-    font-size: 12px !important;
-    line-height: 16px !important;
+    font-size: 12px;
+    line-height: 16px;
     width: 100%;
     color: #565959;
 
@@ -3796,6 +3845,12 @@ a{
 .mob-save .save-span {
     font-weight: 300;
     color: #565959;
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    white-space: normal;
+    line-height: 15.6px;
+    margin-bottom: 4px;
 
 }
 
@@ -3820,6 +3875,10 @@ a{
    margin-bottom: 4px;
    vertical-align: middle;
    width: 100%;
+}
+
+.prime-deli-span .deliver.three {
+    margin-bottom: 0;
 }
 
 .deliver .prime-icon-span {
@@ -3892,58 +3951,33 @@ font-weight: 700;
 
 .card-content-mob .mob-addtocart {
 
-    padding-top: 4px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 16px;
+    
     
 
 }
 
-.mob-addtocart .mob-addcart1 {
-
-    width: 100%;
-}
-
-.mob-addcart1 .mob-addcart2 {
-
-    margin-top: 12px;
-    margin-bottom: 0;
-    
-}
-
-.mob-addcart2 .bn-property{
-    border-radius: 100px;
-    background-color: #ffd814;
-    border-color: #ffd814;
-    display: block;
-    padding: 0;
-    text-align: center;
-    text-decoration: none !important;
-    /* vertical-align: middle; */
-    cursor: pointer;
-    border-style: solid;
-   border-radius: 99px;
-    /* background: 0 0; */
-    box-shadow: none;
-    position: relative;
-    height: 100%;
-}
-.mob-addcart2 .yellow-bn {
-
-    color: #0f1111;
+.mob-addtocart button{
+    height: 32px;
     padding: 5px 12px 5px 12px;
     font-size: 13px;
     line-height: 20px;
     width: 100%;
-    height: 100%;
-    display: block;
-    margin: 0;
     text-align: center;
-    background-color: transparent;
-    border: 0;
-    outline: 0;
-    cursor: pointer;
+    vertical-align: middle;
+    color: #0f1111;
+    border-radius: 100px;
+    box-shadow: none;
+    background-color: #ffd814;
+    border-color: #ffd814;
+    outline: none;
+    border-style: solid;
+   
 }
+/* .mob-addtocart .yellow-text{
+    margin-top: -2px;
+} */
+
 .mob-footer{
     display: block;
     
