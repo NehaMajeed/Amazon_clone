@@ -1782,6 +1782,7 @@ a {
     color: #565959;
     font-size: 14px;
     line-height: 20px;
+    margin-bottom: 4px;
 }
 .rupee{
     display: flex;
@@ -1911,8 +1912,9 @@ a {
 
 }
 .prime-delivery{
+   
     padding-top: 4px;
-    margin-top: 0;
+    margin-top: 3px;
     margin-bottom: 0;
 }
 .prime-icon-box .prime-icon{
@@ -1925,22 +1927,75 @@ a {
     background-repeat: no-repeat;
     display: inline-block;
 }
-.prime-firstrow, .prime-secondrow{
+.prime-delivery .freeee{
+    font-size: 14px;
+    line-height: 18px;
+    color: #565959;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 4px;
+}
+.prime-delivery .freeee .text1{
+    color: #0f1111;
+}
+.prime-delivery .freeee .text2{
+    color: #0f1111;
+    font-weight: 700;
+}
+.prime-delivery .fasttt{
+    font-size: 14px;
+    line-height: 18px;
+    color: #565959;
+     font-weight: 400;
+    
+}
+
+.prime-delivery .fasttt .text3{
+    color: #0f1111;
+   
+}
+
+.prime-delivery .fasttt .text4{
+     color: #0f1111;
+     font-weight: 700;
+}
+
+/* .prime-firstrow, .prime-secondrow{
     display: flex;
     gap: 4px;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    max-height: 40px;
+    text-wrap: nowrap;
+
 }
 .prime-firstrow p, .prime-secondrow p{
     color: #0f1111;
     font-size: 14px;
     line-height: 20px;
+    display: inline;
+    
 }
-.prime-firstrow h3, .prime-secondrow h3{
+.prime-firstrow h3{
     color: #0f1111;
     font-weight: 700;
     font-size: 14px;
     line-height: 20px;
-
+    word-break: break-word;
+    overflow-wrap: break-word;
+    display: inline;
 }
+.prime-secondrow h3{
+     overflow-wrap: break-word;
+      color: #0f1111;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+} */
 
 .prime-firstrow-seven{
     display: flex;
@@ -1974,10 +2029,11 @@ a {
     color: #565959;
     font-size: 14px;
     line-height: 20px;
+    margin-top: 5px;
 
 }
 .addtocart .cart-bn-wrapper{
-    margin-top: 4px;
+    margin-top: 6px;
 }
 .addtocart button{
     border-radius: 100px;
@@ -2209,7 +2265,7 @@ a {
     min-width: 940px;
     position: relative;
     width: 100%;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
 
 }
 .recently-viewed{
@@ -3146,7 +3202,7 @@ a{
 
     background-image: url(https://m.media-amazon.com/images/S/sash/IAiggOMz$2G$3oR.png);
     vertical-align: baseline;
-    margin-bottom: -6px;
+    margin-bottom: -1.75px;
     margin-inline-end: 4px;
     background-size: 512px 256px;
     background-repeat: no-repeat;
@@ -3639,7 +3695,7 @@ a{
 .mob-rating-bought{
     padding-top: 4px;
     margin-top: 0;
-    margin-bottom: 0;
+    
 }
 .mob-rating-bought .mob-rating{
 
@@ -3855,7 +3911,7 @@ a{
 }
 
 .card-content-mob .mob-prime-deli {
-
+   
     padding-top: 4px;
     margin-top: 0;
     margin-bottom: 0;
